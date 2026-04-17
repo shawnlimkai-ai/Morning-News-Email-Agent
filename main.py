@@ -30,6 +30,7 @@ NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 RESEND_API_KEY = os.getenv("RESEND_API_KEY")
 FROM_EMAIL = os.getenv("FROM_EMAIL", "briefing@example.com")
 TO_EMAIL = os.getenv("TO_EMAIL", "shawnlimkai@gmail.com")
+TO_EMAIL2 = os.getenv("TO_EMAIL2", "jozeeang@gmail.com")  # optional second recipient, comma-separated if multiple
 MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 FALLBACK_MODELS: list[str] = []
 
